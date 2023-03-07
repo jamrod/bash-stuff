@@ -1,7 +1,7 @@
 #!/bin/bash
 
-for letter in l q w e t y i p f g h j k z x c v b n m; do
-	for let2 in a q w e t y i p f g h j k z x c v b n m; do
-		echo ${letter}${let2}ual
+for letter in q e y i f g j k z x b m; do
+	for let2 in q e y i f g j k z x b m; do
+		echo ${letter}ai${let2}e
 	done
 done

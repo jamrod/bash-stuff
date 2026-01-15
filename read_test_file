@@ -1,0 +1,6 @@
+  backend "s3" {
+    bucket  = ${TFSTATE_BUCKET}
+    key     = ${TFSTATE_KEY}
+    region  = ${REGION}
+    encrypt = true
+  }

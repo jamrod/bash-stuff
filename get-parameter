@@ -1,0 +1,2 @@
+#!/usr/local/bin/bash
+aws ssm get-parameter --name $1 --query Parameter.Value --output text
